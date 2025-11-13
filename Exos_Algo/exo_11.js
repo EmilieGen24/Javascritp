@@ -1,13 +1,14 @@
-let count = 0
 
 
-for (let i = 0; i <= 9; i++) {
+for (let i = 0; i <= 10; i++) {
     let count = ""
-    for (let y = 0; y <= 9; y++) {
+    for (let y = 0; y <= 10; y++) {
         count += " " + i * y
     }
     console.log(count);
 }
+
+
 
 
 

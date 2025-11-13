@@ -1,4 +1,4 @@
-timeUser = 14
+let timeUser = 14
 
 if(timeUser <= 12) {
     console.log("C'est le matin")
