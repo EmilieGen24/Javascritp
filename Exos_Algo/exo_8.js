@@ -1,7 +1,6 @@
-let triangleCoteB = 5
-let triangleCoteC = 10
+let b = 2
+let c = 3
 
+const result = Math.sqrt(Math.pow(b, 2) + Math.pow(c, 2))
 
-let hypothenuse = Math.sqrt(Math.pow(triangleCoteB, 2) + Math.pow(triangleCoteC, 2))
-
-console.log(hypothenuse)
+console.log(result)

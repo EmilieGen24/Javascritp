@@ -1,14 +1,11 @@
 
 
-let appleFruit = 'apple'
-let pearFruit = 'pear'
+let firstName = 'John'
+let lastName = 'Doe'
 
-console.log(appleFruit)
-console.log(pearFruit)
+const temporary = firstName
+firstName = lastName
+lastName = temporary
 
-basket = pearFruit
-pearFruit = appleFruit
-appleFruit = basket
-
-console.log(appleFruit)
-console.log(pearFruit)
+console.log(firstName)
+console.log(lastName)

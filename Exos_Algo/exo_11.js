@@ -1,12 +1,13 @@
 
 
-for (let i = 0; i <= 10; i++) {
-    let count = ""
-    for (let y = 0; y <= 10; y++) {
-        count += " " + i * y
+let result = ''
+for(let i = 1; i < 10; i++) {
+    for(let j = 1; j < 10; j++) {
+        result += i * j + ' '
     }
-    console.log(count);
+    result += '\n'
 }
+console.log(result)
 
 
 

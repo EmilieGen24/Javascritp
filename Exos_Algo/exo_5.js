@@ -1,7 +1,6 @@
-let count = 0
-let nombreTotal = 30
-
-for (i = 1; i<nombreTotal; i++){
-    count += i
-    console.log(count)
+let total = 0
+for(let i = 1; i <= 30; i++) {
+    total += i
 }
+
+console.log(total)

@@ -1,7 +1,4 @@
-let array = [1,2,3,4]
-
-let newArray = array.map(x =>x*2)
-
-console.log (newArray)
+const array = [1, 2, 3, 4, 5]
+console.log(array.map(item => item * 2))
 
 
