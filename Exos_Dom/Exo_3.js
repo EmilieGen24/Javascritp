@@ -1,10 +1,11 @@
 // Galerie d'images interactive
 
-const image = document.getElementsByClassName("thumbnail")
+const image = document.querySelectorAll(".thumbnail")
 const element = document.getElementById("mainImage")
 
-
-img.addEventListener("click", function(){
+image.forEach(img =>{
+    img.addEventListener("click", function(){
     element.src = img.src
+    })
 })
 

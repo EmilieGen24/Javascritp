@@ -1,7 +1,12 @@
 const input=document.getElementById("filterInput")
-const countryList=document.getElementById("countryList")
+const list=document.getElementById("countryList")
+let selectedCountries = countries
 
-input.addEventListener("input", function(){
+function initCountries(){
+    selectedCountries
+}
+
+input.addEventListener("input", function(event){
     let filterInput=input.value
     
 } )
